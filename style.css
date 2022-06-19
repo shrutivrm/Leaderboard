@@ -81,6 +81,7 @@ input[type=submit]{
     }
     input[type=submit]{
         margin: 0 auto;
+        float: right;
         display: block;
     }
     .container{
@@ -93,12 +94,11 @@ input[type=submit]{
     .controls{
         font-size: 5px;
         margin-top: -8px;
-        align-items: left;
     }
-    .table td{  
-        font-weight: 100;
-        font-family: 'Courier New', Courier, monospace;
+    .controls-button-insert{
+        margin-top: -10px;
     }
+
 }
 
 @media (max-width: 696px) {
@@ -113,7 +113,7 @@ input[type=submit]{
         float: left;
     }
     input[type=submit]{
-        margin: 0 auto;
+        float: left;
         display: block;
     }
     .table thead{
@@ -139,13 +139,13 @@ input[type=submit]{
         font-size: 20px;
     }
     .controls{
-        font-size: 5px;
+        font-size: 4px;
         margin-top: -8px;
-        align-items: left;
+        
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     body{
         height: auto;
     }
@@ -162,9 +162,11 @@ input[type=submit]{
     input[type=text], input[type=number]{
         width: 80%;
         float: left;
+        margin-left: 15px;
     }
     input[type=submit]{
-        margin: 0 75%;
+        /*margin: 0 75%;*/
+        margin-right: 220px;
         display: block;
     }
     .table thead{
@@ -187,7 +189,8 @@ input[type=submit]{
         justify-content: center;
     }
     .controls{
-        margin-left: 32%;
+        margin-left: 23%;
+        margin-top: -8px;
     }
     .date{
         display: none;
@@ -207,7 +210,7 @@ input[type=submit]{
     input[type=text], input[type=number]{
         padding: 5px 5px;
         margin: 12px 0;
-        width: 190px;
+        width: 150px;
     }
     input[type=submit]{
         margin: 0 20px;
@@ -221,7 +224,7 @@ input[type=submit]{
 }
 
 
-@media (min-width: 769px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width:1023px) {
     .container{
         width: 700px;
     }
@@ -244,6 +247,7 @@ input[type=submit]{
     }
     .table thead tr th{
         font-size: 10px;
+        width: 200px;
     }
     .table td{
         border-collapse: collapse;
@@ -257,6 +261,7 @@ input[type=submit]{
         border-collapse: collapse;
         font-size: 10px;
     }
+    
 }
 
 /* Styling the table attributes */
@@ -311,9 +316,10 @@ th, td{
     border: none;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
-    margin-left: 30px;
+    margin-left: 33px;
     font-size: 15px;
     font-weight: 700;
+    margin-right:1px;
 }
 
 .controls-button-item{
@@ -321,18 +327,20 @@ th, td{
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     margin-left: 33px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
+    margin-right:1px;
 }   
 
 .controls-button-insert{
     border: none;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
-    margin-left: 35px;
-    font-size: 14px;
+    margin-left: 5px;
+    font-size: 15px;
     font-weight: 700;
-   align-items: center;
+    align-items: center;
+    margin-right: 30px;
 }
 
 .gg-trash{
