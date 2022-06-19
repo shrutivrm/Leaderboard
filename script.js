@@ -29,7 +29,7 @@ function addTable(){
         score = document.getElementById("Score").value;
         activity = `<button class="controls-button-insert"  onclick = "remove(this)"><i class="gg-trash"></i></button> 
                     <button class="controls-button-insert"  onclick = "add()">+5</button> 
-                    <button class="controls-button-insert"  onclick = "sub()">--5</button>`;
+                    <button class="controls-button-insert"  onclick = "sub()">-5</button>`;
 
                     
         cell1.innerHTML = `${fname} <div class="date"> ${Date()}</div>`;
