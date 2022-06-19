@@ -62,7 +62,7 @@ function addTable(){
             temp2[i].style.fontSize = "18px";
             temp2[i].style.textAlign = "center";
             temp2[i].style.fontWeight = "600";
-            temp2[i].style.marginRight = "100px";
+            temp2[i].style.marginRight = "50px";
         }
 
         cell4.innerHTML = activity;
