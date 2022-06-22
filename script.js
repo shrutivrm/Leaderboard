@@ -27,7 +27,7 @@ function addTable(){
         fname = document.getElementById("first_name").value + " " + document.getElementById("last_name").value,
         country = document.getElementById("country").value,
         score = document.getElementById("Score").value;
-        activity = `<button class="controls-button-insert"  onclick = "remove(this)"><i class="gg-trash"></i></button> 
+        activity = `<button class="controls-button-insert-remove"  onclick = "remove(this)"><i class="gg-trash"></i></button> 
                     <button class="controls-button-insert"  onclick = "add()">+5</button> 
                     <button class="controls-button-insert"  onclick = "sub()">-5</button>`;
 
