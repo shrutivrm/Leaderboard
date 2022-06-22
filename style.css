@@ -82,6 +82,7 @@ input[type=submit]{
     input[type=submit]{
         margin: 0 auto;
         float: right;
+        margin-left: 100px;
         display: block;
     }
     .container{
@@ -312,49 +313,58 @@ th, td{
     display: flex;
 }
 
-.controls-button{
+.controls-button-item-add{
     border: none;
-    border-radius: 20px;
-    padding: 10px 10px 10px 10px;
-    margin-left: 33px;
+    border-radius: 50%;
+    padding: 12px 12px 12px 12px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-right:5px;
+}   
+.controls-button-item-remove{
+    border: none;
+    border-radius: 50%;
+    padding: 12px 12px 12px 12px;
+    margin-left: 38px;
     font-size: 15px;
     font-weight: 700;
-    margin-right:1px;
-}
+}   
 
-.controls-button-item{
+.controls-button-item-sub{
     border: none;
-    border-radius: 20px;
-    padding: 10px 10px 10px 10px;
-    margin-left: 33px;
+    border-radius: 50%;
+    padding: 12px 12px 12px 12px;
+    margin-left: 38px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 900;
     margin-right:1px;
 }   
 
+
 .controls-button-insert{
     border: none;
-    border-radius: 20px;
-    padding: 10px 10px 10px 10px;
-    margin-left: 5px;
+    border-radius: 50%;
+    padding: 12px 12px 12px 12px;
+    margin-left: 4px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
+    align-items: center;
+    margin-right: 29px;
+}
+
+.controls-button-insert-remove{
+    border: none;
+    border-radius: 50%;
+    padding: 13px 13px 13px 13px;
+    margin-left: 10px;
     align-items: center;
     margin-right: 30px;
 }
 
 .gg-trash{
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
     width: 15px;
     height: 19px;
-    border: 2px solid transparent;
-    box-shadow:
-        0 0 0 2px,
-        inset -2px 0 0,
-        inset 2px 0 0;
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
     margin-top: 4px;
