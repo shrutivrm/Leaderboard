@@ -142,7 +142,6 @@ input[type=submit]{
     .controls{
         font-size: 4px;
         margin-top: -8px;
-        
     }
 }
 
@@ -255,9 +254,6 @@ input[type=submit]{
         height: 50px;
         font-size: 15px;
     }
-    .controls-button{
-        font-size: 5px;
-    }
     .table tbody{
         border-collapse: collapse;
         font-size: 10px;
@@ -311,6 +307,8 @@ th, td{
 /* Styling buttons */
 .controls{
     display: flex;
+    justify-content: left;
+    margin-left: 15px;
 }
 
 .controls-button-item-add{
@@ -319,7 +317,7 @@ th, td{
     padding: 12px 12px 12px 12px;
     margin-left: 45px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 900;
     margin-right:5px;
 }   
 .controls-button-item-remove{
@@ -327,8 +325,6 @@ th, td{
     border-radius: 50%;
     padding: 12px 12px 12px 12px;
     margin-left: 38px;
-    font-size: 15px;
-    font-weight: 700;
 }   
 
 .controls-button-item-sub{
@@ -337,10 +333,9 @@ th, td{
     padding: 12px 12px 12px 12px;
     margin-left: 38px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 900;
     margin-right:1px;
 }   
-
 
 .controls-button-insert{
     border: none;
@@ -348,7 +343,7 @@ th, td{
     padding: 12px 12px 12px 12px;
     margin-left: 4px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 900;
     align-items: center;
     margin-right: 29px;
 }
