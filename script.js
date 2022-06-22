@@ -32,7 +32,7 @@ function addTable(){
                     <button class="controls-button-insert"  onclick = "sub()">-5</button>`;
 
                     
-        cell1.innerHTML = `${fname} <div class="date"> ${Date()}</div>`;
+        cell1.innerHTML = `${fname} <div class="date"> ${Date().substring(0,21)}</div>`;
         cell1.className = "list";
         var temp = document.querySelectorAll(".list");
         for (var i = 0; i < temp.length; i++) {
@@ -66,6 +66,8 @@ function addTable(){
         }
 
         cell4.innerHTML = activity;
+    
+        sortTable();
         clearForm();
 }
 
