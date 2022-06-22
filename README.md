@@ -5,6 +5,7 @@
 
 The page is responsive
 
-![leaderboard-mobile](https://user-images.githubusercontent.com/84138971/175057229-976e2386-e380-4fb1-89ef-e2c62d6e3d9b.jpeg)
+![leaderboard-mobile](https://user-images.githubusercontent.com/84138971/175060385-7e42c0c8-227d-4dd1-954d-2c90665c8a5c.jpeg)
+
 
 
